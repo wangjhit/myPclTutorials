@@ -1,0 +1,3 @@
+/home/wj/pclTutorials/myPclTutorials/readPcd/build/CMakeFiles/edit_cache.dir
+/home/wj/pclTutorials/myPclTutorials/readPcd/build/CMakeFiles/rebuild_cache.dir
+/home/wj/pclTutorials/myPclTutorials/readPcd/build/CMakeFiles/pcd_read.dir
