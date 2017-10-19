@@ -1,4 +1,4 @@
-#Reading Point Cloud data from PCD files
+# Reading Point Cloud data from PCD files
 In this tutorial we will learn how to read point cloud data from a PCD file.
 ##The code
 First, create a file called, let’s say, pcd_read.cpp in your favorite editor, and place the following code inside it:
@@ -29,7 +29,7 @@ main (int argc, char** argv)
   return (0);
 }
 ```
-##The explanation
+## The explanation
 Now, let’s break down the code piece by piece.<br>
 ```c++
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
@@ -58,7 +58,7 @@ Finally:
               << " "    << cloud->points[i].z << std::endl;
 ```
 is used to show the data that was loaded from file.
-##Compiling and running the program
+## Compiling and running the program
 
 Add the following lines to your CMakeLists.txt file:
 ```C++
